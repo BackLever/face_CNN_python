@@ -2,3 +2,7 @@
 *.jpg
 .ipynb_checkpoints/faceCNN-checkpoint.ipynb
 *.pyc
+.ipynb_checkpoints/test-checkpoint.ipynb
+_face.pkl
+saved_params_face_20_5_8000_100.pkl
+saved_params_face_20_5_800_1002.pkl
