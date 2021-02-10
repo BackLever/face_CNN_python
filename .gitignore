@@ -6,3 +6,5 @@
 _face.pkl
 saved_params_face_20_5_8000_100.pkl
 saved_params_face_20_5_800_1002.pkl
+.ipynb_checkpoints/convnet-checkpoint.py
+.ipynb_checkpoints/layers-checkpoint.py

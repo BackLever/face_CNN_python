@@ -121,7 +121,7 @@ class ConvNet:
             params[key] = val
         with open(file_name, 'wb') as f:
             pickle.dump(params, f)
-        print("params save complete!")
+        print("params save complete!: {}".format(file_name))
     
     def load_params(self, file_name="face_params.pkl"):
         with open(file_name, 'rb') as f:
@@ -138,4 +138,4 @@ class ConvNet:
             self.layers['Affine'+str(idx_p)].W = self.params['W'+str(idx)]
             self.layers['Affine'+str(idx_p)].b = self.params['b'+str(idx)]
         
-        print("params load complete!")
+        print("params load complete!: {}".format(file_num))
