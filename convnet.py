@@ -138,4 +138,4 @@ class ConvNet:
             self.layers['Affine'+str(idx_p)].W = self.params['W'+str(idx)]
             self.layers['Affine'+str(idx_p)].b = self.params['b'+str(idx)]
         
-        print("params load complete!: {}".format(file_num))
+        print("params load complete!: {}".format(file_name))
